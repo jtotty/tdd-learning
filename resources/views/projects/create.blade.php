@@ -1,7 +1,7 @@
 @extends ('layouts.app')
 
 @section ('content')
-    <form method="post" action="/projects" class="container" style="padding-top: 40px">
+    <form method="post" action="/projects">
         @csrf
 
         <h1 class="heading is-1">Create a Project</h1>
@@ -25,6 +25,7 @@
         <div class="field">
             <div class="control">
                 <button type="submit" class="button is-link">Create</button>
+                <a href="/projects">Cancel</a>
             </div>
         </div>
 
