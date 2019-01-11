@@ -15279,7 +15279,7 @@ table {
 }
 
 .shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
 }
 
 .shadow-md {
@@ -15303,7 +15303,7 @@ table {
 }
 
 .hover\:shadow:hover {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
 }
 
 .hover\:shadow-md:hover {
@@ -15327,7 +15327,7 @@ table {
 }
 
 .focus\:shadow:focus {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
 }
 
 .focus\:shadow-md:focus {
@@ -20875,7 +20875,7 @@ table {
   }
 
   .sm\:shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .sm\:shadow-md {
@@ -20899,7 +20899,7 @@ table {
   }
 
   .sm\:hover\:shadow:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .sm\:hover\:shadow-md:hover {
@@ -20923,7 +20923,7 @@ table {
   }
 
   .sm\:focus\:shadow:focus {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .sm\:focus\:shadow-md:focus {
@@ -26449,7 +26449,7 @@ table {
   }
 
   .md\:shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .md\:shadow-md {
@@ -26473,7 +26473,7 @@ table {
   }
 
   .md\:hover\:shadow:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .md\:hover\:shadow-md:hover {
@@ -26497,7 +26497,7 @@ table {
   }
 
   .md\:focus\:shadow:focus {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .md\:focus\:shadow-md:focus {
@@ -32023,7 +32023,7 @@ table {
   }
 
   .lg\:shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .lg\:shadow-md {
@@ -32047,7 +32047,7 @@ table {
   }
 
   .lg\:hover\:shadow:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .lg\:hover\:shadow-md:hover {
@@ -32071,7 +32071,7 @@ table {
   }
 
   .lg\:focus\:shadow:focus {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .lg\:focus\:shadow-md:focus {
@@ -37597,7 +37597,7 @@ table {
   }
 
   .xl\:shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .xl\:shadow-md {
@@ -37621,7 +37621,7 @@ table {
   }
 
   .xl\:hover\:shadow:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .xl\:hover\:shadow-md:hover {
@@ -37645,7 +37645,7 @@ table {
   }
 
   .xl\:focus\:shadow:focus {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .08);
   }
 
   .xl\:focus\:shadow-md:focus {
