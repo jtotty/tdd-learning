@@ -1,13 +1,13 @@
 <?php
 
+use App\Project;
+use App\User;
 use Faker\Generator as Faker;
 
-$factory->define(App\Project::class, function (Faker $faker) {
+$factory->define(Project::class, function (Faker $faker) {
     return [
         'title'       => $faker->sentence,
         'description' => $faker->paragraph,
-        'owner_id'    => function () {
-            return factory(App\User::class)->create()->id;
-        },
+        'owner_id'    => factory(User::class),
     ];
 });
