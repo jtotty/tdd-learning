@@ -1,4 +1,3 @@
 # tdd-learning
-Learning TDD with Laravel 5.7 from the Laracasts Site.
 
-These are just files based off the tutorials.
+Learning Test Driven Design with Laravel 5.7 and Vue.js by building a projects and tasks app.
