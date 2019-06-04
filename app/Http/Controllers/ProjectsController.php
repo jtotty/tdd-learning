@@ -58,10 +58,8 @@ class ProjectsController extends Controller
      */
     public function update(Project $project)
     {
-        // Authorize
         $this->authorize('update', $project);
 
-        // Update
         $project->update($this->validateRequest());
 
         return redirect($project->path());
@@ -82,12 +80,12 @@ class ProjectsController extends Controller
      *
      * @return array
      */
-    public function validateRequest()
+    protected function validateRequest()
     {
         return request()->validate([
-            'title'       => 'required',
-            'description' => 'required',
-            'notes'       => 'min:3',
+            'title'       => 'sometimes|required',
+            'description' => 'sometimes|required',
+            'notes'       => 'nullable',
         ]);
     }
 }
